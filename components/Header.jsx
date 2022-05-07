@@ -88,7 +88,7 @@ const Header = ({ setIsFromHeader }) => {
             <a
               href="https://forms.gle/X9cRxoe3vPVtctc16"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
               className="demo-button"
               onClick={toggleModalOne}>
               <span>Join Beta</span>

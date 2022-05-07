@@ -5,7 +5,7 @@ function Hero() {
         <div className="row">
           <div className="col-xl-7 col-lg-10 col-md-9 m-auto">
             <div className="title-style-six text-center mt-25">
-              <h1>Learning alone is your yesterday's problem.</h1>
+              <h1>Learning alone is your yesterday&apos;s problem.</h1>
 
               <p>
                 SecondBrain is an online learning framework. We offer a
@@ -16,7 +16,7 @@ function Hero() {
                 <a
                   href="https://forms.gle/X9cRxoe3vPVtctc16"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                   className="demo-button">
                   Join Beta
                 </a>
