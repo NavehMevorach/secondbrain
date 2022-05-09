@@ -1,4 +1,16 @@
+import * as gta from './../lib/ga/index'
+
 function Hero() {
+  function join() {
+    gta.event({
+      action: 'sign_up',
+      params: {
+        category: 'new user',
+        label: 'new user',
+        value: 'new user',
+      },
+    })
+  }
   return (
     <div className="client-feedback-slider-five mt-200 md-mt-10" id="home">
       <div className="container">
@@ -17,7 +29,8 @@ function Hero() {
                   href="https://forms.gle/X9cRxoe3vPVtctc16"
                   target="_blank"
                   rel="noreferrer"
-                  className="demo-button">
+                  className="demo-button"
+                  onClick={join}>
                   Join Beta
                 </a>
               </div>
