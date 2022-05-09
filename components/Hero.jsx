@@ -31,7 +31,7 @@ function Hero() {
                   rel="noreferrer"
                   className="demo-button"
                   onClick={join}>
-                  Join Beta
+                  Join Waitlist
                 </a>
               </div>
             </div>

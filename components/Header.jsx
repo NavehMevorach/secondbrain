@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
+import * as gta from './../lib/ga/index'
 import Link from 'next/link'
 import Scrollspy from 'react-scrollspy'
 
 const Header = ({ setIsFromHeader }) => {
-  const [isOpen, setIsOpen] = useState(false)
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
   const [navbar, setNavbar] = useState(false)
@@ -12,10 +12,16 @@ const Header = ({ setIsFromHeader }) => {
     window.addEventListener('scroll', changeBackground)
   }, [])
 
-  function toggleModalOne() {
-    setIsOpen(!isOpen)
+  function handleSignUp() {
+    gta.event({
+      action: 'sign_up',
+      params: {
+        category: 'new user',
+        label: 'new user',
+        value: 'new user',
+      },
+    })
   }
-
   const changeBackground = () => {
     if (window.scrollY >= 30) {
       setNavbar(true)
@@ -90,9 +96,9 @@ const Header = ({ setIsFromHeader }) => {
               target="_blank"
               rel="noreferrer"
               className="demo-button"
-              onClick={toggleModalOne}>
-              <span>Join Beta</span>
-              <img src="/assets/icons/plus.svg" alt="Plus Icon" />
+              onClick={handleSignUp}>
+              <span> Join Waitlist</span>
+              {/* <img src="/assets/icons/plus.svg" alt="Plus Icon" /> */}
             </a>
           </div>
         </div>
