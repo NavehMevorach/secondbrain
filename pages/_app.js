@@ -5,10 +5,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Script
+        id="my-script"
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=G-0N09DNHH6H"`}
       />
       <Script
+        id="my-second-script"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
