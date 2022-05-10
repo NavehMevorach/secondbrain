@@ -26,7 +26,7 @@ function Hero() {
               </p>
               <div className="form-input-updated">
                 <a
-                  href="https://forms.gle/X9cRxoe3vPVtctc16"
+                  href="https://forms.gle/PSzQwVWMXX66MLFcA"
                   target="_blank"
                   rel="noreferrer"
                   className="demo-button"

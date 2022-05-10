@@ -1,4 +1,16 @@
+import * as gta from './../lib/ga/index'
+
 function LastCta({ isFromHeader }) {
+  function join() {
+    gta.event({
+      action: 'sign_up',
+      params: {
+        category: 'new user',
+        label: 'new user',
+        value: 'new user',
+      },
+    })
+  }
   return (
     <div id="why" className="pt-250 md-pt-200">
       <div className="container">
@@ -12,7 +24,14 @@ function LastCta({ isFromHeader }) {
             </div>
 
             <div className="form-input-updated">
-              <button className="demo-button">Join Beta</button>
+              <a
+                href="https://forms.gle/PSzQwVWMXX66MLFcA"
+                target="_blank"
+                rel="noreferrer"
+                className="demo-button"
+                onClick={join}>
+                Join Waitlist
+              </a>
             </div>
           </div>
         </div>
