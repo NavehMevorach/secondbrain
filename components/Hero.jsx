@@ -15,14 +15,20 @@ function Hero() {
     <div className="client-feedback-slider-five mt-200 md-mt-10" id="home">
       <div className="container">
         <div className="row">
-          <div className="col-xl-7 col-lg-10 col-md-9 m-auto">
+          <div className="col-xl-8 col-lg-10 col-md-9 m-auto">
             <div className="title-style-six text-center mt-25">
-              <h1>Learning alone is your yesterday&apos;s problem.</h1>
+              {/* <h1>Learning alone is your yesterday&apos;s problem.</h1> */}
+              <h1>Chat, Learn, Collab - Get Hired.</h1>
 
-              <p>
+              {/* <p>
                 SecondBrain is an online learning framework. We offer a
                 group-based learning experience that helps you stay motivated,
                 productive, focused, and overcome the tutorial hell.
+              </p> */}
+              <p>
+                Join our free, group-based learning suite. An industry-oriented
+                learning environment that helps you stay motivated, deepen your
+                understanding & knowledge and reach your career goals.
               </p>
               <div className="form-input-updated">
                 <a
