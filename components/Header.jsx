@@ -97,7 +97,7 @@ const Header = ({ setIsFromHeader }) => {
               rel="noreferrer"
               className="demo-button"
               onClick={handleSignUp}>
-              <span> Join Waitlist</span>
+              <span>Request Access</span>
               {/* <img src="/assets/icons/plus.svg" alt="Plus Icon" /> */}
             </a>
           </div>

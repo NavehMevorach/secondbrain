@@ -30,7 +30,7 @@ function LastCta({ isFromHeader }) {
                 rel="noreferrer"
                 className="demo-button"
                 onClick={join}>
-                Join Waitlist
+                Request Access
               </a>
             </div>
           </div>

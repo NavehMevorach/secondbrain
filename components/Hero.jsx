@@ -28,7 +28,7 @@ function Hero() {
               <p>
                 Join our free, group-based learning suite. An industry-oriented
                 learning environment that helps you stay motivated, deepen your
-                understanding & knowledge and reach your career goals.
+                understanding & knowledge, and reach your career goals.
               </p>
               <div className="form-input-updated">
                 <a
@@ -37,7 +37,7 @@ function Hero() {
                   rel="noreferrer"
                   className="demo-button"
                   onClick={join}>
-                  Join Waitlist
+                  Request Access
                 </a>
               </div>
             </div>
